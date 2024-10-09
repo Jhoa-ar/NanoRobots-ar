@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    color: #333; 
+    line-height: 1.6; 
+}
+
+a {
+    text-decoration: none;
+    color: #3498db; 
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background: linear-gradient(to right, #3498db, #e74c3c);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.logotipo { 
+    display: flex;
+    align-items: center; 
+}
+
+.logotipo img {
+    height: 80px;
+    margin-right: 10px;
+}
+
+.title {
+    font-family: 'Lobster', cursive;
+    font-size: 24px; 
+    color: white; 
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+    color: white; 
+}
+
+nav a:hover {
+    color: #f1c40f; 
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 10px 0px;
+    }
+}
+
+#video {
+    margin: 20px 0;
+    text-align: center;
+}
+
+iframe {
+    border: none; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+    width: 100%; 
+    height: 300px;
+}
+
+
+.article-box {
+    background: linear-gradient(to right, #E8DAEF, #D4E6F1); 
+    border: 2px solid #1C2833; 
+    border-radius: 50px; 
+    padding: 20px;
+    margin: 20px 0; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+}
+
+
+.article-title {
+    color: #2c3e50; 
+    font-family: "Qwitcher Grypen", cursive;;
+    font-style: italic;
+}
+
+.article-image {
+    display: block; 
+    width: 20%; 
+    border-radius: 5px; 
+    margin: 15px auto; 
+}
+
+.article-link {
+    font-weight: bold; 
+    color: #3498db; 
+}
+
+.article-link:hover {
+    text-decoration: underline; 
+}
+p {
+    color: #333;
+    font-weight: bold;
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+  
